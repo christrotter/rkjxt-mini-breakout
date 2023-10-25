@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/christrotter/git/printing/rkjxt-mini/rkjxt-jst-breakout.kicad_sch</source>
+    <date>2023 October 23, Monday 20:14:23</date>
+    <tool>Eeschema 7.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>JST breakout for RKJXT</title>
+        <company/>
+        <rev>v0.1</rev>
+        <date>2023-10-22</date>
+        <source>rkjxt-jst-breakout.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value="creativecommons.org/licenses/by/4.0"/>
+        <comment number="3" value="License: CC BY 4.0"/>
+        <comment number="4" value="Author: Chris Trotter"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="" part="1N4148W_1" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rkjxt-jst-breakout.kicad_sch"/>
+      <property name="ki_description" value="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>775477a6-e0bd-4f23-ae19-3ec7d88eb4b9</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rkjxt-jst-breakout.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54fc9242-7a07-43e0-acc2-dedf32d57d9c</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rkjxt-jst-breakout.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c955ec5a-a4ff-414f-add4-5a8285d0e419</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rkjxt-jst-breakout.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef66835e-9ada-4375-a868-d05cab4b7c82</tstamps>
+    </comp>
+    <comp ref="JST1">
+      <value>Conn_01x06_Socket</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x06_Socket" description="Generic connector, single row, 01x06, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rkjxt-jst-breakout.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3060cd76-2164-4536-866a-04ce467e4f18</tstamps>
+    </comp>
+    <comp ref="JST2">
+      <value>Conn_01x06_Socket</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x06_Socket" description="Generic connector, single row, 01x06, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rkjxt-jst-breakout.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ba1be13-daa9-4d0a-b5a9-ff91db1cdd5e</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>RKJXT1F42001</value>
+      <footprint>RKJXT1F42001</footprint>
+      <datasheet>http://www.alps.com/prod/info/E/HTML/MultiControl/Switch/RKJXT/RKJXT1F42001.html</datasheet>
+      <fields>
+        <field name="Height">17</field>
+        <field name="Manufacturer_Name">ALPS Electric</field>
+        <field name="Manufacturer_Part_Number">RKJXT1F42001</field>
+        <field name="Mouser Part Number">688-RKJXT1F42001</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Alps-Alpine/RKJXT1F42001?qs=6EGMNY9ZYDTsBzSTrhiL0w%3D%3D</field>
+      </fields>
+      <libsource lib="RKJXT1F42001" part="RKJXT1F42001" description="Multi-Directional Switches 4 drectnl swtch cntr push w/ an encoder"/>
+      <property name="Height" value="17"/>
+      <property name="Manufacturer_Name" value="ALPS Electric"/>
+      <property name="Manufacturer_Part_Number" value="RKJXT1F42001"/>
+      <property name="Mouser Part Number" value="688-RKJXT1F42001"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Alps-Alpine/RKJXT1F42001?qs=6EGMNY9ZYDTsBzSTrhiL0w%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rkjxt-jst-breakout.kicad_sch"/>
+      <property name="ki_description" value="Multi-Directional Switches 4 drectnl swtch cntr push w/ an encoder"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b482e32-41dc-47c8-97f3-bd8e803209ee</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="1N4148W_1">
+      <description>75V 0.15A Fast Switching Diode, SOD-123</description>
+      <docs>https://www.vishay.com/docs/85748/1n4148w.pdf</docs>
+      <footprints>
+        <fp>D*SOD?123*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148W</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://www.vishay.com/docs/85748/1n4148w.pdf</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Socket">
+      <description>Generic connector, single row, 01x06, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="RKJXT1F42001" part="RKJXT1F42001">
+      <description>Multi-Directional Switches 4 drectnl swtch cntr push w/ an encoder</description>
+      <docs>http://www.alps.com/prod/info/E/HTML/MultiControl/Switch/RKJXT/RKJXT1F42001.html</docs>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">RKJXT1F42001</field>
+        <field name="Footprint">RKJXT1F42001</field>
+        <field name="Datasheet">http://www.alps.com/prod/info/E/HTML/MultiControl/Switch/RKJXT/RKJXT1F42001.html</field>
+        <field name="Height">17</field>
+        <field name="Manufacturer_Name">ALPS Electric</field>
+        <field name="Manufacturer_Part_Number">RKJXT1F42001</field>
+        <field name="Mouser Part Number">688-RKJXT1F42001</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Alps-Alpine/RKJXT1F42001?qs=6EGMNY9ZYDTsBzSTrhiL0w%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="PUSH" type="passive"/>
+        <pin num="3" name="GND_TERMINAL" type="passive"/>
+        <pin num="4" name="B" type="passive"/>
+        <pin num="5" name="ENCODER_B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+        <pin num="7" name="COM" type="passive"/>
+        <pin num="8" name="ENCODER_COM" type="passive"/>
+        <pin num="9" name="D_1" type="passive"/>
+        <pin num="10" name="ENCODER_A" type="passive"/>
+        <pin num="11" name="D_2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="RKJXT1F42001">
+      <uri>/Users/christrotter/Downloads/LIB_RKJXT1F42001/RKJXT1F42001/KiCad/RKJXT1F42001.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="COM">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="S1" pin="7" pinfunction="COM" pintype="passive"/>
+    </net>
+    <net code="2" name="Gnd">
+      <node ref="JST2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="S1" pin="3" pinfunction="GND_TERMINAL" pintype="passive"/>
+      <node ref="S1" pin="8" pinfunction="ENCODER_COM" pintype="passive"/>
+    </net>
+    <net code="3" name="col1">
+      <node ref="JST1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="S1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="4" name="col2">
+      <node ref="JST1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="S1" pin="4" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="5" name="col3">
+      <node ref="JST1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="S1" pin="6" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="6" name="col4">
+      <node ref="JST1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="S1" pin="9" pinfunction="D_1" pintype="passive"/>
+    </net>
+    <net code="7" name="col5">
+      <node ref="JST1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="S1" pin="2" pinfunction="PUSH" pintype="passive"/>
+    </net>
+    <net code="8" name="encA">
+      <node ref="JST2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="S1" pin="10" pinfunction="ENCODER_A" pintype="passive"/>
+    </net>
+    <net code="9" name="encB">
+      <node ref="JST2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="S1" pin="5" pinfunction="ENCODER_B" pintype="passive"/>
+    </net>
+    <net code="10" name="row1">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="JST2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="11" name="unconnected-(JST1-Pin_6-Pad6)">
+      <node ref="JST1" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="12" name="unconnected-(JST2-Pin_4-Pad4)">
+      <node ref="JST2" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(JST2-Pin_5-Pad5)">
+      <node ref="JST2" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(S1-D_2-Pad11)">
+      <node ref="S1" pin="11" pinfunction="D_2" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
