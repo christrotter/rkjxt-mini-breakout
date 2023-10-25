@@ -1,0 +1,13 @@
+"Source:","/Users/christrotter/git/printing/rkjxt-mini/rkjxt-jst-breakout.kicad_sch"
+"Date:","2023 October 23, Monday 20:14:23"
+"Tool:","Eeschema 7.0.7"
+"Generator:","/Applications/KiCad/KiCad.app/Contents/SharedSupport/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","7"
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","DNP","Height","Manufacturer_Name","Manufacturer_Part_Number","Mouser Part Number","Mouser Price/Stock","Sim.Device","Sim.Pins"
+"1","1","D1","1N4148W",":1N4148W_1","Diode_SMD:D_SOD-123","https://www.vishay.com/docs/85748/1n4148w.pdf","","","","","","","D","1=K 2=A"
+"2","3","H1, H2, H3","MountingHole","Mechanical:MountingHole","","~","","","","","","","",""
+"3","2","JST1, JST2","Conn_01x06_Socket","Connector:Conn_01x06_Socket","Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical","~","","","","","","","",""
+"4","1","S1","RKJXT1F42001","RKJXT1F42001:RKJXT1F42001","RKJXT1F42001","http://www.alps.com/prod/info/E/HTML/MultiControl/Switch/RKJXT/RKJXT1F42001.html","","17","ALPS Electric","RKJXT1F42001","688-RKJXT1F42001","https://www.mouser.co.uk/ProductDetail/Alps-Alpine/RKJXT1F42001?qs=6EGMNY9ZYDTsBzSTrhiL0w%3D%3D","",""
