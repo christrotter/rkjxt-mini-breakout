@@ -14,3 +14,8 @@ I needed a better 5-way switch for the mk18 project.  In the past I picked up so
 They have almost zero slop/play and fit in the same footprint as the other 5-way switches, plus have an EC11 encoder built-in, and a 'joystick' effect.
 
 In theory I can keep the same used space and so the same mounting location, i.e. right above the trackball.
+
+![alt text](images/mini-render-front.png "Front")
+![alt text](images/mini-render-rear.png "Rear")
+![alt text](images/mini-pcb.png "PCB")
+![alt text](images/mini-schematic.png "Schematic")
